@@ -1,10 +1,14 @@
 import javax.lang.model.util.ElementScanner6;
 import javax.swing.JOptionPane;
 import java.util.Scanner;
+
+//This code will take names and times from the user and print the running order.
 public class runnerrecord
 {
     public static void main(String[] args)
     {
+
+        //This section is where we get user's names and times.
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter runner's name:");
@@ -57,6 +61,7 @@ public class runnerrecord
         //3, 2, 1
         else
         {
+            //This section of code will print out the running order from fastest to slowest.
             System.out.println("The running order is: " + runnerThree + ", " +
                                 runnerTwo + ", " + runnerOne);
         }
